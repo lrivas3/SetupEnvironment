@@ -4,7 +4,16 @@
 
 Estos scripts les van a ayudar a instalar su entorno de desarrollo en Angular y un manejador de versiones de Node, además de otras herramientas utiles.
 
-## Cambiando la política de ejecución
+## Requerimientos de sistema :shipit:
+
+### Winget :cyclone:
+
+El script depende principalmente de "Winget", esta es la interfaz para el sistema manejador de paquetes de Windows.
+
+- Si tienes windows 11: you're good
+- Si tienes windows 10: you're good, en la mayoría de los casos. Pero si no es una versión reciente,[  puedes instalar winget facilmente desde aquí](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1?hl=es-sv&gl=sv&rtc=1) como cualquier otro programa.
+
+### Cambiar la política de ejecución :wrench:
 
 Powershell usa una política de ejecución de Scripts como medida de seguridad. Pero para poder usar los scritps y otros que se necesiten después, como es el caso de scripts de Angular, vas a tener que cambiar esa política.
 
@@ -17,6 +26,27 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Ya puedes cerrar esa terminal.
 
 ## Instalando el entorno
+
+### Descargar
+
+En caso de que no tengas descargados los scripts, puedes clonar este repositorio usando Git.
+
+`````
+git clone https://github.com/lrivas3/SetupEnvironment.git
+`````
+
+Si no sabes usar Git (quierete 3 pesos) puedes descargarlo desde aquí en Github.
+
+En la sección de Releases:
+
+![Seccion de releases](/images/image3.png "First ever release")
+
+Descargas la primera opción y ya puedes seguir con el setup
+
+![Releases](/images/image4.png "First ever release")
+
+
+### Setup 
 
 En la misma carpeta donde está este README, vas a encontrar un archivo que se llama "install.ps1", es un script en powershell, necesitas correrlo desde la terminal de la siguiente manera:
 
