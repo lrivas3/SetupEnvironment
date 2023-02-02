@@ -1,5 +1,5 @@
 ﻿# Creating Powershell profile to be able to resource it and refresh powershell when needed
-Write-Host "Voy a crear un perfil de configuración para refrescar Powershell, hare una copia del archivo si es que existe, estás de acuerdo (sino no pasa nada)?" -ForegroundColor Green
+Write-Host "Voy a crear un perfil de configuración para refrescar Powershell, hare una copia del archivo en la carpeta Documents si es que existe, estás de acuerdo (sino no pasa nada)?" -ForegroundColor Green
 $CreateProfile = Read-Host -Prompt "(Y/n)"
 if($CreateProfile -eq "Y") {
     $file = $profile
