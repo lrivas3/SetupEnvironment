@@ -4,9 +4,9 @@
 
 Estos scripts les van a ayudar a instalar su entorno de desarrollo en Angular y un manejador de versiones de Node, además de otras herramientas utiles.
 
-## Cambiando la politica de ejecución
+## Cambiando la política de ejecución
 
-Powershell usa una politica de ejecución de Scripts como medida de seguridad. Pero para poder usar los scritps y otros que se necesiten después, como es el caso de scripts de Angular, vas a tener que cambiar esa politica.
+Powershell usa una política de ejecución de Scripts como medida de seguridad. Pero para poder usar los scritps y otros que se necesiten después, como es el caso de scripts de Angular, vas a tener que cambiar esa política.
 
 Abre powershell como administrador y ejecuta el siguiente comando:
 
