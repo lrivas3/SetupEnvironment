@@ -1,6 +1,4 @@
-﻿. $profile
-
-# Refreshing environment variables
+﻿# Refreshing environment variables
 Write-Host "Refrescando variables de entorno" -ForegroundColor Green
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 

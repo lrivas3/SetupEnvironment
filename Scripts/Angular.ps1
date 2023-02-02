@@ -18,6 +18,6 @@ Set-Location $CreatedDir
 
 # Finishing
 Write-Host "Todo listo!, puede crear su proyecto"
-Write-Host "Cerrando en 5 segundos"
+Write-Host "Cerrando en 10 segundos"
 
-Start-Sleep 5
+Start-Sleep 10

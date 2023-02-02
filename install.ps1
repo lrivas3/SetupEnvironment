@@ -10,7 +10,3 @@ foreach ($script in $scripts) {
     }
 }
 
-if ($process.ExitCode -eq 0) {
-    Write-Host "Press any key to continue..."
-    $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
-}
