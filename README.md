@@ -22,6 +22,11 @@ Abre powershell como administrador y ejecuta el siguiente comando:
 ````powershell
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope LocalMachine
 ````
+Puedes dejar todo como estaba antes con el comando:
+
+````powershell
+Set-ExecutionPolicy -ExecutionPolicy Default -Scope LocalMachine
+````
 
 Ya puedes cerrar esa terminal.
 
@@ -47,6 +52,10 @@ Descargas la primera opción y ya puedes seguir con el setup
 
 
 ### Setup 
+
+**Puedes instalar con Powershell o con batch (si ejecutas el .bat no necesitas configurar los permisos de Powershell)**
+
+Ejemplo de instalación usando Powershell.
 
 En la misma carpeta donde está este README, vas a encontrar un archivo que se llama "install.ps1", es un script en powershell, necesitas correrlo desde la terminal de la siguiente manera:
 
