@@ -20,7 +20,7 @@ Powershell usa una política de ejecución de Scripts como medida de seguridad. 
 Abre powershell como administrador y ejecuta el siguiente comando:
 
 ````powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope LocalMachine
 ````
 
 Ya puedes cerrar esa terminal.
@@ -73,6 +73,8 @@ El Script les va a instalar:
 - las cosas que ustedes hayan elegido (Powershell 7, Windows Terminal, Git)
 - NVM (Node Version Manager), que les va a ayudar a cambiar de version de node cuando lo necesiten. Les va a instalar 3 versiones de node. y va a configurar uno como la versión actual
 - Angular, después de haber instalado Node y npm
+
+- Además va a crear un directorio de trabajo en el directorio $HOME\Dev\ANP0 
 
 Una vez instalado deberían ver las letras en rojo de Angular y ya pueden iniciar su proyecto normalmente.
 

@@ -9,4 +9,3 @@ foreach ($script in $scripts) {
         Write-Host "An error occurred while running the script $script."
     }
 }
-
